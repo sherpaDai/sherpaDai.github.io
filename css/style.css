@@ -122,7 +122,7 @@ body {
 }
 
 #special-active-menu-2 {
-	background-color: #1abc9c !important;
+	background-color: #2b542c !important;
 }
 
 #special-active-menu-3 {
@@ -183,7 +183,7 @@ body {
 	}
 	
 	.nav li[data-slide="2"] {
-		background-color: #1abc9c;
+		background-color: #2b542c;
 	}
 	
 	.nav li[data-slide="3"] {
@@ -302,9 +302,10 @@ body {
 }
 
 #slide-2 {
-	background-color: #1abc9c;
-	color: #e4e6e5;
-	padding-top: 90px;
+	background-color: #2b542c;
+	color: #e5e5e5;
+	/*padding-top: 90px;*/
+    padding-top: 90px;/*psang*/
 }
 
 	.title-row {
@@ -313,7 +314,7 @@ body {
 	}
 	
 	.line-row .hr {
-		background-color: #e4e6e5;
+		background-color: #474949;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
@@ -381,7 +382,9 @@ body {
 }
 
 #slide-3 {
-	background-color: #000;
+	/*background-color: #000;*/
+    background-color: rgba(65, 179, 232, 0.85);/*psang*/
+    color: rgba(234, 247, 230, 0.85);/*psang*/
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
@@ -438,7 +441,8 @@ body {
 }
 
 #slide-4 {
-	background-color: #34495e;
+	/*background-color: #34495e;*/
+    background-color: #000000;/*psang*/
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -458,7 +462,8 @@ body {
 #slide-6 {
 	background-color: #2f2f2f;
 	color: #e4e6e5;
-	padding-bottom: 350px;
+	/*padding-bottom: 350px;*/
+    padding-bottom: 70px;/*psang*/
 	padding-top: 90px;
 }
 
@@ -609,4 +614,20 @@ body {
 
 .navigation-slide {
 	cursor: pointer;
+}
+
+/*mod*/
+#welcomeNote{
+	background-color: gainsboro;
+	color: #474949;
+	padding-top: 40px;
+    padding-bottom:20px;
+}
+
+.font-sub-headers{
+	font-size: 1.4em;
+}
+
+.font-description-regular{
+	font-size: 1em;
 }

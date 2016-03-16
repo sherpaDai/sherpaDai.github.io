@@ -195,8 +195,12 @@ jQuery(document).ready(function ($) {
 	links.click(function (e) {
 		e.preventDefault();
 		dataslide = $(this).attr('data-slide');
-		goToByScroll(dataslide);
-		$(".nav-collapse").collapse('hide');
+		if(dataslide){
+			goToByScroll(dataslide);
+			$(".nav-collapse").collapse('hide');
+		}else{
+			location.href = $(this).find('a').prop('href');
+		}
 	});
 	
 	//When the user clicks on the navigation links, get the data-slide attribute value of the link and pass that variable to the goToByScroll function
